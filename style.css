@@ -31,10 +31,13 @@ main {
 h1 {
   font-size: 72px;
   margin: 0;
+  line-height: 0.8;
 }
 
 #branding > img {
-  margin-bottom: -40px;
+  max-width: 100%;
+  position: relative;
+  left: -8px;
 }
 
 main > p {
